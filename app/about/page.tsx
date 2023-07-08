@@ -1,6 +1,7 @@
 import Link from 'next/link'
 
 const About = () => {
+  throw new Error('Error in About Page')
   return (
     <>
       <h1>About</h1>
