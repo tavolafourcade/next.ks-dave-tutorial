@@ -1,3 +1,5 @@
+import styles from './styles.module.css'
+
 const AboutLayout = ({
   children,
 }: {
@@ -6,7 +8,7 @@ const AboutLayout = ({
   return (
     <>
     <nav>About NavBar</nav>
-    <main>
+    <main className={styles.main}>
       {children}
     </main>
     </>
